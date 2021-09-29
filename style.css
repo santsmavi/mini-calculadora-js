@@ -1,0 +1,11 @@
+* {
+    margin: 10px; padding: 10px;
+}
+input, select, span {
+    font-size: 20px;
+    display: block;
+}
+
+#calcular {
+    font-size: 20px;
+}

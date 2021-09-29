@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<title>Mini Calculadora</title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+		<script type="text/javascript" src="script.js"></script>
+	</head>
+	<body>
+		<h1>Cálculo</h1>
+		 <!-- <form> -->
+		<!--  <label for="n1"> Valor 1: </label> -->
+		<input id="n1" type="number" placeholder="Primeiro número" name="n1"/>
+
+		<select name="operador" id="operador" required>
+			<option value=""> Selecione </option>
+			<option value="adicao"> + </option>
+			<option value="subtracao"> - </option>
+			<option value="divisao"> / </option>
+			<option value="multiplicacao"> * </option>
+		</select>
+
+		<input id="n2" type="number" placeholder="Segundo número" name="n2"/> 
+		
+		<input type="submit" id="calcular" name="calcular" value="Calcular"> 
+		
+		<span id="spnresultado"></span>
+
+
+		<!--</form>  -->
+
+		
+	</body>
+</html>
